@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C018D651AE198C9004E6900 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C018D641AE198C9004E6900 /* AVFoundation.framework */; };
+		8C2C25D41ADFF53500672B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C25D31ADFF53500672B0B /* AppDelegate.swift */; };
+		8C2C25D61ADFF53500672B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C25D51ADFF53500672B0B /* ViewController.swift */; };
+		8C2C25DB1ADFF53500672B0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C25DA1ADFF53500672B0B /* Images.xcassets */; };
+		8C2C25EA1ADFF53500672B0B /* LhamaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C25E91ADFF53500672B0B /* LhamaGameTests.swift */; };
+		8C2C25F41AE060AB00672B0B /* UpgradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C25F31AE060AB00672B0B /* UpgradesViewController.swift */; };
+		8C3193551AE0AC1D00CCFCFD /* UpgradesSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3193541AE0AC1D00CCFCFD /* UpgradesSingleton.swift */; };
+		8C46428C1AE9903B000702D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C46428A1AE9903B000702D7 /* Main.storyboard */; };
+		8C9F22EB1AE9766A005BAF28 /* UpgradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F22EA1AE9766A005BAF28 /* UpgradesTableViewCell.swift */; };
+		8CAC507B1AE98F240067D958 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C25D21ADFF53500672B0B /* Info.plist */; };
+		8CAEAD7F1AE7CAE100A107E2 /* lhama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CAEAD7E1AE7CAE100A107E2 /* lhama.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C2C25E41ADFF53500672B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2C25C61ADFF53500672B0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2C25CD1ADFF53500672B0B;
+			remoteInfo = LhamaGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C9F23011AE98180005BAF28 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C018D641AE198C9004E6900 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8C2C25CE1ADFF53500672B0B /* LhamaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LhamaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2C25D21ADFF53500672B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2C25D31ADFF53500672B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C2C25D51ADFF53500672B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C2C25D81ADFF53500672B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C2C25DA1ADFF53500672B0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C2C25DD1ADFF53500672B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8C2C25E31ADFF53500672B0B /* LhamaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LhamaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2C25E81ADFF53500672B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2C25E91ADFF53500672B0B /* LhamaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LhamaGameTests.swift; sourceTree = "<group>"; };
+		8C2C25F31AE060AB00672B0B /* UpgradesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpgradesViewController.swift; path = ../UpgradesViewController.swift; sourceTree = "<group>"; };
+		8C3193541AE0AC1D00CCFCFD /* UpgradesSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpgradesSingleton.swift; path = ../UpgradesSingleton.swift; sourceTree = "<group>"; };
+		8C3424471AE9858D00F747B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3424481AE9858D00F747B9 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8C34244A1AE9858D00F747B9 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8C3424521AE985B100F747B9 /* LhamaWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LhamaWidget; sourceTree = "<group>"; };
+		8C3424541AE985B900F747B9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LhamaWidget/Info.plist; sourceTree = "<group>"; };
+		8C3424551AE985B900F747B9 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainInterface.storyboard; path = LhamaWidget/MainInterface.storyboard; sourceTree = "<group>"; };
+		8C3424561AE985B900F747B9 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = LhamaWidget/TodayViewController.swift; sourceTree = "<group>"; };
+		8C407B251AE9888400A250EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C407B261AE9888400A250EA /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8C407B281AE9888400A250EA /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8C407B301AE9889E00A250EA /* LhamaWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LhamaWidget; sourceTree = "<group>"; };
+		8C46428B1AE9903B000702D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LhamaGame/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C6624521AE985EC00CD436C /* LhamaWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LhamaWidget; sourceTree = "<group>"; };
+		8C6624541AE985F500CD436C /* LhamaWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LhamaWidget; sourceTree = "<group>"; };
+		8C86037D1AE9841900393D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C86037E1AE9841900393D9B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8C8603801AE9841900393D9B /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8C8603A31AE984A300393D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8603A41AE984A300393D9B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8C8603A61AE984A300393D9B /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8C9A755F1AE9865E00577B13 /* LhamaWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LhamaWidget; sourceTree = "<group>"; };
+		8C9F22EA1AE9766A005BAF28 /* UpgradesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpgradesTableViewCell.swift; path = ../UpgradesTableViewCell.swift; sourceTree = "<group>"; };
+		8C9F22F21AE98180005BAF28 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8C9F23021AE981A2005BAF28 /* LhamaGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LhamaGame.entitlements; sourceTree = "<group>"; };
+		8C9F23041AE982EB005BAF28 /* LhamaWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LhamaWidget; sourceTree = "<group>"; };
+		8CAEAD7E1AE7CAE100A107E2 /* lhama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lhama.mp3; sourceTree = "<group>"; };
+		8CE275CE1AE986F500CCB454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE275CF1AE986F500CCB454 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8CE275D11AE986F500CCB454 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8CE275DA1AE9872A00CCB454 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE275DB1AE9872A00CCB454 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8CE275DC1AE9872A00CCB454 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8CE275E01AE9874000CCB454 /* LhamaWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LhamaWidget; sourceTree = SOURCE_ROOT; };
+		8CE4234D1AE9853100566D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE4234E1AE9853100566D72 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8CE423501AE9853100566D72 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2C25CB1ADFF53500672B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C018D651AE198C9004E6900 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2C25E01ADFF53500672B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C018D661AE199EC004E6900 /* Sons */ = {
+			isa = PBXGroup;
+			children = (
+				8CAEAD7E1AE7CAE100A107E2 /* lhama.mp3 */,
+			);
+			name = Sons;
+			sourceTree = "<group>";
+		};
+		8C2C25C51ADFF53500672B0B = {
+			isa = PBXGroup;
+			children = (
+				8C46428A1AE9903B000702D7 /* Main.storyboard */,
+				8C407B301AE9889E00A250EA /* LhamaWidget */,
+				8C9A755F1AE9865E00577B13 /* LhamaWidget */,
+				8C6624541AE985F500CD436C /* LhamaWidget */,
+				8C6624521AE985EC00CD436C /* LhamaWidget */,
+				8C3424541AE985B900F747B9 /* Info.plist */,
+				8C3424551AE985B900F747B9 /* MainInterface.storyboard */,
+				8C3424561AE985B900F747B9 /* TodayViewController.swift */,
+				8C3424521AE985B100F747B9 /* LhamaWidget */,
+				8C9F23041AE982EB005BAF28 /* LhamaWidget */,
+				8C018D641AE198C9004E6900 /* AVFoundation.framework */,
+				8C018D661AE199EC004E6900 /* Sons */,
+				8C2C25D01ADFF53500672B0B /* LhamaGame */,
+				8C2C25E61ADFF53500672B0B /* LhamaGameTests */,
+				8C86037B1AE9841900393D9B /* LhamaNotification */,
+				8C8603A11AE984A300393D9B /* dsada */,
+				8CE4234B1AE9853100566D72 /* LhamaNotif */,
+				8C3424451AE9858D00F747B9 /* LhamaWidget */,
+				8CE275CC1AE986F500CCB454 /* LhamaWidget */,
+				8C407B231AE9888400A250EA /* LhamaWidget */,
+				8C9F22F11AE98180005BAF28 /* Frameworks */,
+				8C2C25CF1ADFF53500672B0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2C25CF1ADFF53500672B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C25CE1ADFF53500672B0B /* LhamaGame.app */,
+				8C2C25E31ADFF53500672B0B /* LhamaGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2C25D01ADFF53500672B0B /* LhamaGame */ = {
+			isa = PBXGroup;
+			children = (
+				8CE275E01AE9874000CCB454 /* LhamaWidget */,
+				8CE275D91AE9872A00CCB454 /* LhamaWidget */,
+				8C9F23021AE981A2005BAF28 /* LhamaGame.entitlements */,
+				8C2C25D31ADFF53500672B0B /* AppDelegate.swift */,
+				8C2C25D51ADFF53500672B0B /* ViewController.swift */,
+				8C2C25F31AE060AB00672B0B /* UpgradesViewController.swift */,
+				8C9F22EA1AE9766A005BAF28 /* UpgradesTableViewCell.swift */,
+				8C3193541AE0AC1D00CCFCFD /* UpgradesSingleton.swift */,
+				8C2C25D71ADFF53500672B0B /* Main.storyboard */,
+				8C2C25DA1ADFF53500672B0B /* Images.xcassets */,
+				8C2C25DC1ADFF53500672B0B /* LaunchScreen.xib */,
+				8C2C25D11ADFF53500672B0B /* Supporting Files */,
+			);
+			path = LhamaGame;
+			sourceTree = "<group>";
+		};
+		8C2C25D11ADFF53500672B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C25D21ADFF53500672B0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C2C25E61ADFF53500672B0B /* LhamaGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C25E91ADFF53500672B0B /* LhamaGameTests.swift */,
+				8C2C25E71ADFF53500672B0B /* Supporting Files */,
+			);
+			path = LhamaGameTests;
+			sourceTree = "<group>";
+		};
+		8C2C25E71ADFF53500672B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C25E81ADFF53500672B0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C3424451AE9858D00F747B9 /* LhamaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C3424481AE9858D00F747B9 /* TodayViewController.swift */,
+				8C34244A1AE9858D00F747B9 /* MainInterface.storyboard */,
+				8C3424461AE9858D00F747B9 /* Supporting Files */,
+			);
+			path = LhamaWidget;
+			sourceTree = "<group>";
+		};
+		8C3424461AE9858D00F747B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C3424471AE9858D00F747B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C407B231AE9888400A250EA /* LhamaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C407B261AE9888400A250EA /* TodayViewController.swift */,
+				8C407B281AE9888400A250EA /* MainInterface.storyboard */,
+				8C407B241AE9888400A250EA /* Supporting Files */,
+			);
+			path = LhamaWidget;
+			sourceTree = "<group>";
+		};
+		8C407B241AE9888400A250EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C407B251AE9888400A250EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C86037B1AE9841900393D9B /* LhamaNotification */ = {
+			isa = PBXGroup;
+			children = (
+				8C86037E1AE9841900393D9B /* TodayViewController.swift */,
+				8C8603801AE9841900393D9B /* MainInterface.storyboard */,
+				8C86037C1AE9841900393D9B /* Supporting Files */,
+			);
+			path = LhamaNotification;
+			sourceTree = "<group>";
+		};
+		8C86037C1AE9841900393D9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C86037D1AE9841900393D9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C8603A11AE984A300393D9B /* dsada */ = {
+			isa = PBXGroup;
+			children = (
+				8C8603A41AE984A300393D9B /* TodayViewController.swift */,
+				8C8603A61AE984A300393D9B /* MainInterface.storyboard */,
+				8C8603A21AE984A300393D9B /* Supporting Files */,
+			);
+			path = dsada;
+			sourceTree = "<group>";
+		};
+		8C8603A21AE984A300393D9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C8603A31AE984A300393D9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C9F22F11AE98180005BAF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C9F22F21AE98180005BAF28 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE275CC1AE986F500CCB454 /* LhamaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8CE275CF1AE986F500CCB454 /* TodayViewController.swift */,
+				8CE275D11AE986F500CCB454 /* MainInterface.storyboard */,
+				8CE275CD1AE986F500CCB454 /* Supporting Files */,
+			);
+			path = LhamaWidget;
+			sourceTree = "<group>";
+		};
+		8CE275CD1AE986F500CCB454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE275CE1AE986F500CCB454 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CE275D91AE9872A00CCB454 /* LhamaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8CE275DA1AE9872A00CCB454 /* Info.plist */,
+				8CE275DB1AE9872A00CCB454 /* MainInterface.storyboard */,
+				8CE275DC1AE9872A00CCB454 /* TodayViewController.swift */,
+			);
+			path = LhamaWidget;
+			sourceTree = "<group>";
+		};
+		8CE4234B1AE9853100566D72 /* LhamaNotif */ = {
+			isa = PBXGroup;
+			children = (
+				8CE4234E1AE9853100566D72 /* TodayViewController.swift */,
+				8CE423501AE9853100566D72 /* MainInterface.storyboard */,
+				8CE4234C1AE9853100566D72 /* Supporting Files */,
+			);
+			path = LhamaNotif;
+			sourceTree = "<group>";
+		};
+		8CE4234C1AE9853100566D72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE4234D1AE9853100566D72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2C25CD1ADFF53500672B0B /* LhamaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2C25ED1ADFF53500672B0B /* Build configuration list for PBXNativeTarget "LhamaGame" */;
+			buildPhases = (
+				8C2C25CA1ADFF53500672B0B /* Sources */,
+				8C2C25CB1ADFF53500672B0B /* Frameworks */,
+				8C2C25CC1ADFF53500672B0B /* Resources */,
+				8C9F23011AE98180005BAF28 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LhamaGame;
+			productName = LhamaGame;
+			productReference = 8C2C25CE1ADFF53500672B0B /* LhamaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C2C25E21ADFF53500672B0B /* LhamaGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2C25F01ADFF53500672B0B /* Build configuration list for PBXNativeTarget "LhamaGameTests" */;
+			buildPhases = (
+				8C2C25DF1ADFF53500672B0B /* Sources */,
+				8C2C25E01ADFF53500672B0B /* Frameworks */,
+				8C2C25E11ADFF53500672B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2C25E51ADFF53500672B0B /* PBXTargetDependency */,
+			);
+			name = LhamaGameTests;
+			productName = LhamaGameTests;
+			productReference = 8C2C25E31ADFF53500672B0B /* LhamaGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2C25C61ADFF53500672B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ricardo Hochman";
+				TargetAttributes = {
+					8C2C25CD1ADFF53500672B0B = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = Y5568WY3X8;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					8C2C25E21ADFF53500672B0B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8C2C25CD1ADFF53500672B0B;
+					};
+				};
+			};
+			buildConfigurationList = 8C2C25C91ADFF53500672B0B /* Build configuration list for PBXProject "LhamaGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C2C25C51ADFF53500672B0B;
+			productRefGroup = 8C2C25CF1ADFF53500672B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2C25CD1ADFF53500672B0B /* LhamaGame */,
+				8C2C25E21ADFF53500672B0B /* LhamaGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2C25CC1ADFF53500672B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C46428C1AE9903B000702D7 /* Main.storyboard in Resources */,
+				8CAC507B1AE98F240067D958 /* Info.plist in Resources */,
+				8CAEAD7F1AE7CAE100A107E2 /* lhama.mp3 in Resources */,
+				8C2C25DB1ADFF53500672B0B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2C25E11ADFF53500672B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2C25CA1ADFF53500672B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2C25F41AE060AB00672B0B /* UpgradesViewController.swift in Sources */,
+				8C2C25D61ADFF53500672B0B /* ViewController.swift in Sources */,
+				8C9F22EB1AE9766A005BAF28 /* UpgradesTableViewCell.swift in Sources */,
+				8C2C25D41ADFF53500672B0B /* AppDelegate.swift in Sources */,
+				8C3193551AE0AC1D00CCFCFD /* UpgradesSingleton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2C25DF1ADFF53500672B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2C25EA1ADFF53500672B0B /* LhamaGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C2C25E51ADFF53500672B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2C25CD1ADFF53500672B0B /* LhamaGame */;
+			targetProxy = 8C2C25E41ADFF53500672B0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C2C25D71ADFF53500672B0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2C25D81ADFF53500672B0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C2C25DC1ADFF53500672B0B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2C25DD1ADFF53500672B0B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8C46428A1AE9903B000702D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C46428B1AE9903B000702D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C2C25EB1ADFF53500672B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C2C25EC1ADFF53500672B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2C25EE1ADFF53500672B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LhamaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8C2C25EF1ADFF53500672B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LhamaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8C2C25F11ADFF53500672B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LhamaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LhamaGame.app/LhamaGame";
+			};
+			name = Debug;
+		};
+		8C2C25F21ADFF53500672B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LhamaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LhamaGame.app/LhamaGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2C25C91ADFF53500672B0B /* Build configuration list for PBXProject "LhamaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2C25EB1ADFF53500672B0B /* Debug */,
+				8C2C25EC1ADFF53500672B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2C25ED1ADFF53500672B0B /* Build configuration list for PBXNativeTarget "LhamaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2C25EE1ADFF53500672B0B /* Debug */,
+				8C2C25EF1ADFF53500672B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2C25F01ADFF53500672B0B /* Build configuration list for PBXNativeTarget "LhamaGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2C25F11ADFF53500672B0B /* Debug */,
+				8C2C25F21ADFF53500672B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C2C25C61ADFF53500672B0B /* Project object */;
+}
